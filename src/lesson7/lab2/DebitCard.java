@@ -13,7 +13,7 @@ public class DebitCard extends Card{
 	
 	@Override
 	public boolean withdraw(double amount) {
-		return (account.withdraw(amount)) ? true : false;
+		return account.withdraw(amount);
 	}
 
 	@Override
