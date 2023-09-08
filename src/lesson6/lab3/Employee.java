@@ -38,8 +38,8 @@ public abstract class Employee {
 		return account;
 	}
 
-	public void setAccount(SavingAccount account) {
-		this.account = account;
+	public void setAccount(SavingAccount savingAccount) {
+		this.account = savingAccount;
 	}
 	
 	public Card getCard() {
